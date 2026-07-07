@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form>
+    <label for="fullName">full Name</label>
+    <input id="fullName" type="text" placeholder="Shiva Daraei" name="fullName"><br>
+
+    <label for="email">email</label>
+    <input id="email" type="email" name="email" placeholder="example@gmail.com"><br>
+
+    <label for="password">password</label>
+    <input id="password" type="password" name="password" minlength="8" required><br>
+
+    <label for="age">age</label>
+    <input id="age" name="age" type="number"><br>
+
+    <label for="BirthDay">Birth Date</label>
+    <input id="BirthDay" name="Bdate" type="date" required><br>
+
+    <p>your gender</p>
+    <label for="male">male</label>
+    <input id="male" name="gender" type="radio" value="male"><br>
+    <label for="female">female</label>
+    <input id="female" name="gender" type="radio" value="female"><br>
+
+    <p>chose skills</p>
+    <label for="python">python</label>
+    <input id="python" name="skills" type="checkbox" value="python">
+    <label for="HTML">HTML</label>
+    <input id="HTML" name="skills" type="checkbox" value="HTML"><br>
+
+    <label for="country">chose your favorite country</label>
+    <select id="country" name="country">
+        <option value="Iran">Iran</option>
+        <option value="Belgium">Belgium</option>
+        <option value="ScottLand">ScottLand</option>
+        <option value="Uk">UK</option>
+    </select><br>
+
+    <button type="submit">Register</button>
+    </form>
+</body>
+</html>
